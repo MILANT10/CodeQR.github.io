@@ -1,0 +1,63 @@
+/*CSS*/
+/*Variables couleurs*/
+:root{
+    --blanc: hsl(0, 0%, 100%);
+    --gris: hsl(212, 45%, 89%);
+    --bleu: hsl(220, 15%, 55%);
+    --bleufoncé: hsl(218, 44%, 22%);
+}
+
+/*Style de base de la page*/
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--gris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Style de la boite globale*/
+.boite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 580px;
+    width: 350px;
+    background-color: var(--blanc);
+    border-radius: 20px;
+
+}
+
+/*Style du QR code */
+.QR{
+    width: 90%;
+    height: 55%;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 20px;
+    margin-top: 22px;
+}
+
+/*Style du titre*/
+.titre1{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 26px;
+    font-family: 'Outfit', sans-serif;
+}
+/*Style du petit paragraphe*/
+.lorem{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 22px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: var(--bleu);
+}
